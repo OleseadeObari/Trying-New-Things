@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  /* background-color: #9696e6; */
+}
+.brown-bg {
+  background-color: #00000074;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-content {
+  background-color: #ffffff;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  border-radius: 4px;
+}
+.header {
+  color: #10365a;
+  margin-bottom: 14px;
+}
+.header h5 {
+  padding-left: 32px;
+}
+.empty {
+  border-bottom: 2px solid #d4d4d5;
+  padding-top: 20px;
+  /* padding-bottom: 14px; */
+}
+
+.selections {
+  display: flex;
+}
+.category {
+  margin-right: 12px;
+  overflow: auto;
+  height: 400px;
+}
+
+.category p {
+  color: #646a86;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+}
+#blue-category {
+  background: #0e62af;
+  color: #ffffff;
+}
+#grey-category {
+  background-color: #eff0f5;
+}
+.box {
+  border-bottom: 1px solid #d4d4d5;
+}
+
+.specialization {
+  background-color: #eff0f5;
+  border-radius: 4px;
+}
+.specialization p {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+}
+.specialization-header {
+  margin-top: 15px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.checklist {
+  height: 360px;
+  overflow: auto;
+}
+.checklist input {
+  accent-color: #24b57a;
+}
+.option {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-right: 5rem;
+  color: #646a86;
+}
+.plann {
+  margin-top: 10px;
+  border: 2px solid #e7eaf4;
+  border-radius: 4px;
+  width: 100%;
+}
+.plan {
+  margin: 5px 7px;
+  padding: 8px 10px;
+  background-color: #10365a;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 4px;
+}
+.plan h5 {
+  color: #ffffff;
+}
+.plan p {
+  color: #9599ac;
+}
+.save {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 22px 0 0 0;
+}
+.btn {
+  padding: 9px 16px;
+  background-color: #ea8124;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* .option label > input {
+  padding-left: 30px;
+} */
